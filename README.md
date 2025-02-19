@@ -1,5 +1,5 @@
 # Flow-of-Options: Diversified and Improved LLM Reasoning by Thinking Through Options
-Flow-of-Options (FoO) ([paper](<to_be_added>)) is a novel reasoning approach designed to overcome intrinsic biases in Large Language Models (LLMs) that limit the diversity of their outputs. 
+Flow-of-Options (FoO) ([paper](https://arxiv.org/abs/2502.12929)) is a novel reasoning approach designed to overcome intrinsic biases in Large Language Models (LLMs) that limit the diversity of their outputs. 
 
 ## Overview
 
@@ -17,3 +17,14 @@ We incorporate FoO into an agentic system for autonomously solving Machine Learn
 Code will be made available here soon! Thank you for your patience!
 
 ## Reference / Bibtex
+```
+@misc{nair2025flowofoptionsdiversifiedimprovedllm,
+      title={Flow-of-Options: Diversified and Improved LLM Reasoning by Thinking Through Options}, 
+      author={Lakshmi Nair and Ian Trase and Mark Kim},
+      year={2025},
+      eprint={2502.12929},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG},
+      url={https://arxiv.org/abs/2502.12929}, 
+}
+```
