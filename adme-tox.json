@@ -1,0 +1,38 @@
+{
+    "Absorption": {
+        "Pgp_Broccatelli": {
+            "Description": "Your task is to perform Binary classification. Given a drug SMILES string, predict the activity of Pgp inhibition. P-glycoprotein (Pgp) is an ABC transporter protein involved in intestinal absorption, drug metabolism, and brain penetration, and its inhibition can seriously alter a drug's bioavailability and safety. In addition, inhibitors of Pgp can be used to overcome multidrug resistance.",
+            "Metric": "higher"
+        },
+        "Bioavailability_Ma": {
+            "Description": "Your task is to perform Binary classification. Given a drug SMILES string, predict the activity of bioavailability. Oral bioavailability is defined as “the rate and extent to which the active ingredient or active moiety is absorbed from a drug product and becomes available at the site of action”.",
+            "Metric": "higher"
+        },
+        "Lipophilicity_AstraZeneca": {
+            "Description": "Your task is to perform Regression. Given a drug SMILES string, predict the activity of lipophilicity. Lipophilicity measures the ability of a drug to dissolve in a lipid (e.g. fats, oils) environment. High lipophilicity often leads to high rate of metabolism, poor solubility, high turn-over, and low absorption.",
+            "Metric": "lower"
+        },
+        "Caco2_Wang": {
+            "Description": "Your task is to perform Regression. Given a drug SMILES string, predict the Caco-2 cell effective permeability. The human colon epithelial cancer cell line, Caco-2, is used as an in vitro model to simulate the human intestinal tissue. The experimental result on the rate of drug passing through the Caco-2 cells can approximate the rate at which the drug permeates through the human intestinal tissue.",
+            "Metric": "lower"
+        },
+        "HIA_Hou": {
+            "Description": "Your task is to perform Binary classification. Given a drug SMILES string, predict the activity of HIA. When a drug is orally administered, it needs to be absorbed from the human gastrointestinal system into the bloodstream of the human body. This ability of absorption is called human intestinal absorption (HIA) and it is crucial for a drug to be delivered to the target.",
+            "Metric": "higher"
+        }
+    },
+    "Distribution": {
+        "BBB_Martins": {
+            "Description": "Your task is to perform Binary classification. Given a drug SMILES string, predict the activity of BBB. As a membrane separating circulating blood and brain extracellular fluid, the blood-brain barrier (BBB) is the protection layer that blocks most foreign drugs. Thus the ability of a drug to penetrate the barrier to deliver to the site of action forms a crucial challenge in development of drugs for central nervous system.",
+            "Metric": "higher"
+        },
+        "PPBR_AZ": {
+            "Description": "Your task is to perform Regression. Given a drug SMILES string, predict the rate of PPBR. The human plasma protein binding rate (PPBR) is expressed as the percentage of a drug bound to plasma proteins in the blood. This rate strongly affect a drug's efficiency of delivery. The less bound a drug is, the more efficiently it can traverse and diffuse to the site of actions.",
+            "Metric": "lower"
+        },
+        "VDss_Lombardo": {
+            "Description": "Your task is to perform Regression. Given a drug SMILES string, predict the volume of distribution. The volume of distribution at steady state (VDss) measures the degree of a drug's concentration in body tissue compared to concentration in blood. Higher VD indicates a higher distribution in the tissue and usually indicates the drug with high lipid solubility, low plasma protein binidng rate.",
+            "Metric": "higher"
+        }
+    }
+}
