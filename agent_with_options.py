@@ -538,6 +538,8 @@ def run_pipeline(
 	costs = {}
 
 	# Case-based reasoning
+	closest_case = None
+	db = None
 	if use_cbr:
 		db, closest_case, similarity = prepare_for_cbr(task_brief, db_path, replace_cases, use_retrieval)
 

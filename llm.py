@@ -63,7 +63,7 @@ def preformat_input(input: str | list[str]) -> list[dict[str,str]]:
 
 
 def query_programmer(input: str, do_cache:bool=cfg.SEED is not None) -> tuple[dict, float]:
-	outputs, costs = call_litellm(input, do_cache)
+	outputs, costs = call_litellm(input, do_cache=do_cache)
 	outputs = json.loads(outputs)
 	return outputs, costs
 
